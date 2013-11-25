@@ -1,3 +1,4 @@
+/* HEADER CLASSES */
 .header {
 	height: 60px !important;
 	background-color: #094b91 !important;
@@ -15,6 +16,9 @@
 	margin: 0.8rem;
 	height: 2.1rem;
 	width: 2.1rem;
+
+	-webkit-border-radius: 3px;
+    border-radius: 3px;
 }
 
 .header .left-small span {
@@ -29,4 +33,12 @@
 
 .header .middle {
 	text-align: center;
+}
+
+/* HAMBURGER MENU CLASSES */
+
+
+/* HOME PAGE BUTTONS */
+.maps-button {
+	width: 100%;
 }

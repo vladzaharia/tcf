@@ -41,7 +41,7 @@
       <section class="main-section">
         <div class="row">
           <div class="large-12 columns">
-            <h1>Welcome to Foundation</h1>
+            <a href="maps.html" class="button maps-button"></a>
           </div>
         </div>
       </section>
@@ -55,6 +55,10 @@
   <script src="js/foundation.min.js"></script>
   <script>
     $(document).foundation();
+
+    $(function() {
+      $('.maps-button').height($('div').width());
+    });
   </script>
 </body>
 </html>
