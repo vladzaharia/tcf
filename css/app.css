@@ -73,6 +73,7 @@ body, html, .off-canvas-wrap, .inner-wrap, .main-section  {
 	display: table;
 	margin-top: 0px;
 	margin-bottom: 10px;
+	padding-top: 0.9rem;
 }
 
 .exhibitor-button .button-text {
