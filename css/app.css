@@ -35,10 +35,22 @@
 	text-align: center;
 }
 
+body, html, .off-canvas-wrap, .inner-wrap, .main-section  {
+	height: 100%;
+}
+
 /* HAMBURGER MENU CLASSES */
 
 
 /* HOME PAGE BUTTONS */
 .maps-button {
 	width: 100%;
+	height: 50%;
+	font-size: 8rem;
+	font-weight: 300 !important;
+	font-family: "Open Sans", Helvetica, sans-serif;
+}
+
+.maps-button span {
+	font-size: 10rem;
 }

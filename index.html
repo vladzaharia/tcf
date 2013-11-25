@@ -7,9 +7,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>UBC Technical Career Fair 2014</title>
 
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+
   <!-- If you are using CSS version, only link these 2 files, you may add app.css to use for your overrides if you like. -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/foundation.css">
+  <link rel="stylesheet" href="css/foundation-icons.css">
 
   <!-- If you are using the gem version, you need this only -->
   <link rel="stylesheet" href="css/app.css">
@@ -39,11 +42,7 @@
       </aside>
 
       <section class="main-section">
-        <div class="row">
-          <div class="large-12 columns">
-            <a href="maps.html" class="button maps-button"></a>
-          </div>
-        </div>
+        <a href="maps.html" class="button maps-button"><span class="fi-map"></span> Map</a>
       </section>
 
     <a class="exit-off-canvas"></a>
@@ -55,10 +54,6 @@
   <script src="js/foundation.min.js"></script>
   <script>
     $(document).foundation();
-
-    $(function() {
-      $('.maps-button').height($('div').width());
-    });
   </script>
 </body>
 </html>
