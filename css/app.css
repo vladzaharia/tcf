@@ -67,7 +67,7 @@ body, html, .off-canvas-wrap, .inner-wrap, .main-section  {
 .exhibitor-button {
 	width: 100%;
 	height: 20%;
-	font-size: 3rem;
+	font-size: 2.5rem;
 	font-weight: 300 !important;
 	font-family: "Open Sans", Helvetica, sans-serif;
 	display: table;
@@ -77,4 +77,8 @@ body, html, .off-canvas-wrap, .inner-wrap, .main-section  {
 .exhibitor-button .button-text {
 	display: table-cell;
 	vertical-align: middle;
+}
+
+.exhibitor-button span.fi-list-bullet {
+	font-size: 3rem;
 }
