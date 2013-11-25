@@ -1,0 +1,32 @@
+.header {
+	height: 60px !important;
+	background-color: #094b91 !important;
+}
+
+.header .left-small {
+	width: 3.8125rem;
+	height: 3.7rem;
+	border-right: 0px;
+	box-shadow: none;
+}
+
+.header .left-small a {
+	background-color: #5B87B6;
+	margin: 0.8rem;
+	height: 2.1rem;
+	width: 2.1rem;
+}
+
+.header .left-small span {
+	left: 0.5rem;
+	top: 0.1rem;
+}
+
+.header .left-small span:hover {
+	-webkit-box-shadow: 0 10px 0 1px #D6E1ED, 0 16px 0 1px #D6E1ED, 0 22px 0 1px #D6E1ED;
+	box-shadow: 0 10px 0 1px #D6E1ED, 0 16px 0 1px #D6E1ED, 0 22px 0 1px #D6E1ED;
+}
+
+.header .middle {
+	text-align: center;
+}
