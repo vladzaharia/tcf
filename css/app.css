@@ -50,9 +50,15 @@ body, html, .off-canvas-wrap, .inner-wrap, .main-section  {
 	font-size: 4rem;
 	font-weight: 300 !important;
 	font-family: "Open Sans", Helvetica, sans-serif;
-	padding-top: 7%;
+	line-height: 5rem;
+	display: table;
 }
 
-.maps-button span {
+.maps-button span.fi-map {
 	font-size: 6rem;
+}
+
+.maps-button .button-text {
+	display: table-cell;
+	vertical-align: middle;
 }
