@@ -72,6 +72,7 @@ body, html, .off-canvas-wrap, .inner-wrap, .main-section  {
 	font-family: "Open Sans", Helvetica, sans-serif;
 	display: table;
 	margin-top: 0px;
+	margin-bottom: 7px;
 }
 
 .exhibitor-button .button-text {
