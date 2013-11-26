@@ -17,6 +17,7 @@ src: url('../fonts/ubcicons.ttf'),
 .off-canvas-wrap.scrollable .main-section {
 	overflow-y: scroll;
 	overflow-x: hidden;
+	padding-bottom: 100px;
 }
 
 /* HEADER CLASSES */
