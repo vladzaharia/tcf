@@ -162,6 +162,7 @@ ul.off-canvas-list li a div.img {
 	background-position: 100%;
 	background-size: 100%;
 	width: 100%;
+	text-align: center;
 }
 
 .company-image-bg img {
@@ -172,6 +173,6 @@ ul.off-canvas-list li a div.img {
 	
 	background-color: #ffffff;
 	height: 100px;
-	margin: 150px 50%;
+	margin: 150px 0px;
 
 }
