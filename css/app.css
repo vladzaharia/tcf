@@ -96,7 +96,7 @@ ul.off-canvas-list li a div.img {
 	width: 20px;
 }
 
-/* HOME PAGE BUTTONS */
+/* HOME PAGE */
 .maps-button {
 	background-color: #222222;
 	width: 100%;
@@ -154,4 +154,24 @@ ul.off-canvas-list li a div.img {
 
 .main-section p {
 	text-align: center;
+}
+
+/* COMPANY PAGE */
+.company-image-bg {
+	background-image: url("../img/companypage.png");
+	background-position: 100%;
+	background-size: 100%;
+	width: 100%;
+}
+
+.company-image-bg img {
+	border: 5px solid #ffffff;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	
+	background-color: #ffffff;
+	height: 100px;
+	margin: 150px 50%;
+
 }
