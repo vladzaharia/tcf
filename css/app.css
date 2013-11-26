@@ -162,6 +162,29 @@ ul.off-canvas-list li a div.img {
 	text-align: center;
 }
 
+/* COMPANY LIST PAGE */
+ul.company-list {
+	list-style-type: none;
+	padding: 0;
+	margin: 0; 
+}
+
+ul.company-list li a {
+	color: #000000;
+	display: block;
+	padding: 1.2rem;
+	background-color: #ffffff;
+	border-bottom: 1px solid #cccccc; 
+	height: 60px;
+	-webkit-transition: background-color 300ms ease-out;
+	-moz-transition: background-color 300ms ease-out;
+	transition: background-color 300ms ease-out;
+}
+
+ul.company-list li a:hover {
+	background-color: #cccccc;
+}
+
 /* COMPANY PAGE */
 .company-image-bg {
 	background-image: url("../img/companypage.png");
