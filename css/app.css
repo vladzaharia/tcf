@@ -88,6 +88,14 @@ ul.off-canvas-list li a:hover {
 	background-color: #083f79;
 }
 
+ul.off-canvas-list li a div {
+	display: inline-block;
+}
+
+ul.off-canvas-list li a div.img {
+	width: 20px;
+}
+
 /* HOME PAGE BUTTONS */
 .maps-button {
 	background-color: #222222;
