@@ -14,10 +14,6 @@ src: url('../fonts/ubcicons.ttf'),
 	font-family: 'ubcicons';
 }
 
-.off-canvas-wrap {
-	overflow-y: scroll;
-}
-
 /* HEADER CLASSES */
 .header {
 	height: 60px !important;
@@ -158,5 +154,4 @@ ul.off-canvas-list li a div.img {
 
 .main-section p {
 	text-align: center;
-	margin-bottom: 10px !important;
 }
