@@ -50,22 +50,6 @@ src: url('../fonts/ubcicons.ttf'),
 	text-align: center;
 }
 
-.header .middle h1.title {
-	background-image: url("../img/tcf14header.png");
-	height: 60px;
-	width: 167px;
-	display: block;
-	position: absolute;
-	left: 43%;
-}
-
-@media only screen and (-webkit-min-device-pixel-ratio: 2) {
-	.header .middle h1.title {
-		background-image: url("../img/tcf14header@2x.png");
-		background-size: 167px 60px;
-	}
-}
-
 body, html, .off-canvas-wrap, .inner-wrap, .main-section  {
 	height: 100%;
 }

@@ -30,7 +30,7 @@
         </section>
 
         <section class="middle tab-bar-section">
-          <h1 class="title"></h1>
+          <h1 class="title"><img src="img/tcf14header.png" /></h1>
         </section>
       </nav>
 
@@ -63,6 +63,12 @@
   <script src="js/foundation.min.js"></script>
   <script>
     $(document).foundation();
+
+    $(function() {
+      if (window.devicePixelRatio == 2) {
+        $("h1.title img").src = "img/tcf14header@2x.png";
+      }
+    })
   </script>
 </body>
 </html>
