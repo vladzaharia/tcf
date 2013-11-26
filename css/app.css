@@ -1,4 +1,4 @@
-/* HAMBURGER CAREERSONLINE */
+/* GENERAL CLASSES */
 
 @font-face
 {
@@ -12,6 +12,10 @@ src: url('../fonts/ubcicons.ttf'),
 .icon-careers:before {
 	content: "\e072";
 	font-family: 'ubcicons';
+}
+
+.off-canvas-wrap.scrollable {
+	overflow-y: scroll;
 }
 
 /* HEADER CLASSES */
