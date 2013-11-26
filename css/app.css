@@ -14,7 +14,7 @@ src: url('../fonts/ubcicons.ttf'),
 	font-family: 'ubcicons';
 }
 
-.off-canvas-wrap.scrollable {
+.off-canvas-wrap.scrollable .main-section {
 	overflow-y: scroll;
 	overflow-x: hidden;
 }
