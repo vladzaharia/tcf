@@ -20,6 +20,11 @@
 
   <script src="js/vendor/custom.modernizr.js"></script>
 
+  <!-- For iOS web apps -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="UBC Technical Career Fair 2014">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
 </head>
 <body>
   <div class="off-canvas-wrap">
@@ -64,6 +69,14 @@
   <script src="js/foundation.min.js"></script>
   <script>
     $(document).foundation();
+
+    window.addEventListener("load",function() {
+      // Set a timeout...
+      setTimeout(function(){
+          // Hide the address bar!
+          window.scrollTo(0, 1);
+      }, 0);
+    });
   </script>
 </body>
 </html>
