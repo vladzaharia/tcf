@@ -152,7 +152,7 @@ ul.off-canvas-list li a div.img {
 	font-size: 2.3rem;
 }
 
-.main-section p {
+.main-section p.center {
 	text-align: center;
 }
 
@@ -174,5 +174,12 @@ ul.off-canvas-list li a div.img {
 	background-color: #ffffff;
 	height: 100px;
 	margin: 75px 0px;
+}
 
+table.contact {
+	width: 100%;
+}
+
+table.contact .icon {
+	width: 10%;
 }
