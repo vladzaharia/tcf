@@ -7,7 +7,7 @@ src: url('../fonts/ubcicons.ttf'),
      url('../fonts/ubcicons.svg'); /* IE9 */
 }
 
-.icon-careers {
+.icon-careers:before {
 	content: "\e072";
 	font-family: 'ubcicons';
 }
@@ -72,11 +72,18 @@ ul.off-canvas-list li label {
 
 ul.off-canvas-list li a {
 	display: block;
-	padding: 1.2rem 1rem;
+	padding: 1.2rem;
 	color: rgba(255, 255, 255, 0.9);
 	background-color: #094b91;
 	border-bottom: 1px solid #063466; 
 	height: 60px;
+	-webkit-transition: background-color 300ms ease-out;
+	-moz-transition: background-color 300ms ease-out;
+	transition: background-color 300ms ease-out;
+}
+
+ul.off-canvas-list li a:hover {
+	background-color: #083f79;
 }
 
 /* HOME PAGE BUTTONS */
