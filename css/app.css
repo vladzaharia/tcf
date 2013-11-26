@@ -1,3 +1,17 @@
+@font-face
+{
+font-family: 'ubcicons';
+src: url('../fonts/ubcicons.ttf'),
+     url('../fonts/ubcicons.eot'),
+     url('../fonts/ubcicons.woff'),
+     url('../fonts/ubcicons.svg'); /* IE9 */
+}
+
+.icon-careers {
+	content: "\e072";
+	font-family: 'ubcicons';
+}
+
 /* HEADER CLASSES */
 .header {
 	height: 60px !important;
@@ -12,11 +26,10 @@
 }
 
 .header .left-small a {
-	background-color: #5B87B6;
+	background-color: #3A6FA7;
 	margin: 0.8rem;
 	height: 2.1rem;
 	width: 2.1rem;
-
 	-webkit-border-radius: 3px;
     border-radius: 3px;
 }
@@ -40,7 +53,31 @@ body, html, .off-canvas-wrap, .inner-wrap, .main-section  {
 }
 
 /* HAMBURGER MENU CLASSES */
+ul.off-canvas-list li {
+	font-weight: 200;
+    font-family: "Open Sans", Helvetica, sans-serif;
+    height: 60px;
+}
 
+ul.off-canvas-list li label {
+	color: #fff;
+	text-transform: none;
+	font-weight: 200;
+    background: #3A6FA7;
+    border-top: 1px solid #5e5e5e;
+    border-bottom: none;
+    font-size: 2rem;
+    margin: 0; 
+}
+
+ul.off-canvas-list li a {
+	display: block;
+	padding: 1.2rem 1rem;
+	color: rgba(255, 255, 255, 0.9);
+	background-color: #094b91;
+	border-bottom: 1px solid #063466; 
+	height: 60px;
+}
 
 /* HOME PAGE BUTTONS */
 .maps-button {
@@ -53,6 +90,10 @@ body, html, .off-canvas-wrap, .inner-wrap, .main-section  {
 	line-height: 5rem;
 	display: table;
 	margin-bottom: 0px;
+}
+
+.maps-button:hover {
+	background-color: #111111;
 }
 
 .maps-button span.fi-map {
@@ -90,8 +131,8 @@ body, html, .off-canvas-wrap, .inner-wrap, .main-section  {
 	padding-top: 5px;
 }
 
-.exhibitor-button span.fi-list-bullet {
-	font-size: 2.1rem;
+.exhibitor-button span.fi-torsos-all {
+	font-size: 2.3rem;
 }
 
 .main-section p {
