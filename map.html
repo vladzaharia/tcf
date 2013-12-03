@@ -5,7 +5,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>UBC Technical Career Fair 2014</title>
+  <title>UBC Technical Career Fair 2014 : Venue Map</title>
 
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
 
@@ -27,7 +27,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
 </head>
 <body>
-  <div class="off-canvas-wrap">
+  <div class="off-canvas-wrap scrollable">
     <div class="inner-wrap">
       <nav class="tab-bar header">
         <section class="left-small">
@@ -53,11 +53,11 @@
       </aside>
 
       <section class="main-section">
-        <a href="map.html" class="button maps-button"><span class="button-text"><span class="fi-map"></span> <br />Map</span></a>
-        <a href="list.html" class="button exhibitor-button"><span class="button-text"><div class="image"><span class="fi-torsos-all"></span></div><div class="text">Company List</div></span></a>
-        <p class="center">
-          Company Rep? Click <a href="help.html">here</a> for assistance.
-        </p>
+        <div class="map-container">
+          <div class="map-row">
+          <a class="booth col1" href="company.html"><span class="booth-text">1</span></a>
+          </div>
+        </div>
       </section>
 
     <a class="exit-off-canvas"></a>
@@ -70,6 +70,12 @@
   <script src="js/foundation.min.js"></script>
   <script>
     $(document).foundation();
+
+    $(function() {
+      var width = $(".booth").width();
+      $(".booth").css("height", width);
+      $(".booth").css("width", width);
+    });
   </script>
 </body>
 </html>
