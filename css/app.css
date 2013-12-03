@@ -227,7 +227,7 @@ ul.company-list li a:hover {
 
 .map-container .col1, 
 .map-container .col3 {
-	margin-left: 1px;
+	margin-left: -3px;
 }
 
 /* COMPANY PAGE */
