@@ -194,7 +194,7 @@ ul.company-list li a:hover {
 }
 
 .map-container, .map-instructions-text {
-	width: 97.5%;
+	width: 100%;
 	margin: 10px auto 10px auto;
 	text-align: center;
 }
