@@ -67,6 +67,7 @@
 
   <script type="text/javascript" src="js/retina-1.1.0.js"></script>
   <script src="js/vendor/jquery.js"></script>
+  <script src="js/jquery.fittext.js"></script>
   <script src="js/foundation.min.js"></script>
   <script>
     $(document).foundation();
@@ -75,6 +76,7 @@
       var width = $(".booth").width();
       $(".booth").css("height", width);
       $(".booth").css("width", width);
+      $(".booth-text").fitText(0.2);
     });
   </script>
 </body>
