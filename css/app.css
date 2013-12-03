@@ -200,7 +200,7 @@ ul.company-list li a:hover {
 }
 
 .map-container .map-row {
-	margin-top: 3px;
+	margin-top: 1px;
 }
 
 .map-container .booth {
@@ -223,6 +223,11 @@ ul.company-list li a:hover {
 .map-container .col2, 
 .map-container .col4 {
 	margin-left: 5%;
+}
+
+.map-container .col1, 
+.map-container .col3 {
+	margin-left: 1px;
 }
 
 /* COMPANY PAGE */
