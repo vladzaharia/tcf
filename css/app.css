@@ -170,7 +170,7 @@ ul.company-list {
 }
 
 ul.company-list li a {
-	color: #3A6FA7;
+	/* color: #3A6FA7; */
 	display: block;
 	padding: 1.2rem;
 	background-color: #ffffff;
