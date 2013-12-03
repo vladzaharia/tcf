@@ -194,11 +194,19 @@ ul.company-list li a:hover {
 	text-align: center;
 }
 
+.map-container .map-row {
+	margin-top: 10px;
+}
+
 .map-container .booth {
 	background-color: #094b91;
 	color: #ffffff;
 	display: inline-table;
 	width: 20%;
+}
+
+.map-container .booth.empty {
+	background-color: #ffffff;
 }
 
 .map-container .booth-text {
