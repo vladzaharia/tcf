@@ -190,7 +190,8 @@ ul.company-list li a:hover {
 	width: 90%;
 	margin-top: 20px;
 	margin-left:auto;
-	margin-right:auto;
+	margin-right:auto;	
+	text-align: center;
 }
 
 .map-container .booth {
@@ -208,7 +209,7 @@ ul.company-list li a:hover {
 
 .map-container .col2, 
 .map-container .col4 {
-	margin-left: 9%;
+	margin-left: 5%;
 }
 
 /* COMPANY PAGE */
