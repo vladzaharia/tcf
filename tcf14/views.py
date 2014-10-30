@@ -2,7 +2,7 @@ from django.contrib.auth.decorators import login_required
 from django.shortcuts import redirect, get_object_or_404, render_to_response
 from django.http import Http404
 from django.views import generic
-from ipware.ip import get_ip_address_from_request
+from ipware.ip import get_ip
 from tcf14.models import *
 
 def index(request):
@@ -20,7 +20,7 @@ def map(request, id = "0"):
 
 def privacy(request):
 	return render_to_response('mobile/privacy.html')
-	
+
 def help(request):
 	return render_to_response('mobile/help.html')
 
@@ -57,12 +57,12 @@ class CompanyView(generic.DetailView):
 
 	def dispatch(self, request, *args, **kwargs):
 		self.user = request.user
-		self.ip = get_ip_address_from_request(request)
+		self.ip = get_ip(request)
 		return super(CompanyView, self).dispatch(request, *args, **kwargs)
 
 	def get_object(self, queryset=None):
 		self.company = super(CompanyView, self).get_object(queryset)
-		
+
 		if self.user.is_authenticated():
 			Visit.objects.create_auth_visit(self.company, self.user, self.ip)
 		else:
