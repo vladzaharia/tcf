@@ -18,3 +18,6 @@ urlpatterns = patterns('',
 	url(r'^privacy$', views.privacy, name='privacy'),
 	url(r'^help$', views.help, name='help'),
 )
+
+# Serve up static files
+urlpatterns += staticfiles_urlpatterns()
