@@ -1,5 +1,5 @@
 from django.conf.urls import patterns, url, include
-from django.shortcuts import redirec
+from django.shortcuts import redirect
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 from tcf14 import views
 
