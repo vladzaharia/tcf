@@ -50,7 +50,7 @@ class VisitManager(models.Manager):
 
 class Visit(models.Model):
 	company = models.ForeignKey(Company)
-	ip = models.CharField(max_length=20, verbose_name=u'IP Address')
+	ip = GenericIPAddressField(protocol=both,unpack_ipv4=True)
 	user = models.ForeignKey(User, blank=True, null=True)
 	date = models.DateTimeField(auto_now=True)
 	objects = VisitManager()
