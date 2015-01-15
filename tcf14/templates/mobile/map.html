@@ -27,7 +27,7 @@
 					<div class="map-row">
 						{%for booth in row %}
 							{% if booth.company %}
-								<a class="booth col{{booth.col}} {% ifequal highlight booth.number %}highlight{% endifequal %}" href="{% url 'booth' booth.number %}"><span class="booth-text">{{ booth.number }}</span></a>
+								<a class="booth col{{booth.col}} {% ifequal highlight booth.number %}highlight{% endifequal %}" href="{% url 'booth' booth.id %}"><span class="booth-text">{{ booth.number }}</span></a>
 							{% elif booth.filler %}
 								<a class="booth col{{booth.col}} empty" href="#"><span class="booth-text">&nbsp;</span></a>
 							{% else %}
