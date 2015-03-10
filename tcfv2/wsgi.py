@@ -8,7 +8,10 @@ https://docs.djangoproject.com/en/1.7/howto/deployment/wsgi/
 """
 
 import os
+import sys
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "tcfv2.settings")
+
+sys.path.append('/home/vladzaharia/tcfv2')
 
 from django.core.wsgi import get_wsgi_application
 application = get_wsgi_application()

@@ -62,11 +62,11 @@ DATABASES = {
         # 'ENGINE': 'django.db.backends.sqlite3',
         # 'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': os.environ.get('MYSQL_DATABASE_NAME'),
-        'USER': os.environ.get('MYSQL_USER'),
-        'PASSWORD': os.environ.get('MYSQL_PASSWORD'),
-        'HOST': os.environ.get('MYSQL_HOST'),
-        'PORT': os.environ.get('MYSQL_PORT'),
+        'NAME': 'tcfsql',
+        'USER': 'tcfsql',
+        'PASSWORD': 'tcfsql',
+        'HOST': 'localhost',
+        'PORT': '3306',
     }
 }
 
