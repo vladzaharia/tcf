@@ -11,7 +11,7 @@ import os
 import sys
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "tcfv2.settings")
 
-sys.path.append('/home/vladzaharia/tcfv2')
+sys.path.append('/srv/www/ubctcf.com/tcfv2')
 
 from django.core.wsgi import get_wsgi_application
 application = get_wsgi_application()
